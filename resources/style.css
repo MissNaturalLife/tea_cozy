@@ -1,10 +1,10 @@
 *{
-font-family: Helvetica;
-font-size: 22px;
-color: seashell;
-background-color: black;
-opacity: 0.9;
-text-align: center;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
 }
 
 header{
@@ -63,8 +63,14 @@ nav span{
 .menu div{
 	margin: 0 auto;
 }
+
 .main_content{
 	margin: 0 auto;
+}
+
+.location img{
+	height: 500px;
+	width: 1200px;
 }
 
 .images{
@@ -82,4 +88,11 @@ nav span{
 
 #large-text{
 	font-size: 34px;
+}
+
+#header{
+	font-size: 34px;
+	position: relative;
+	bottom: 450px;
+	background-color: none;
 }
