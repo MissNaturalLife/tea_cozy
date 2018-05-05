@@ -16,6 +16,7 @@ header{
 }
 
 header img{
+	display: relative;
 	float: left;
 	padding-left: 10px;
 	height: 50px;
@@ -24,7 +25,17 @@ header img{
 nav span{
 	text-decoration: underline;
 	float: right;
-	padding: 20px 10px;
+	padding: 20px 20px;
+}
+
+.mission_statement{
+	width: 1200px;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+	position: relative;
+	bottom: 350px;
+	z-index: 2;
 }
 
 #main-background{
