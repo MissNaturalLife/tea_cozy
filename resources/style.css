@@ -57,12 +57,22 @@ nav span{
 .menu img{
 	height:200px;
 	width: 300px;
-	display: flex;
+	padding: 10px;
 }
 
 .menu div{
+	margin: 0 auto;
+}
+.main_content{
+	margin: 0 auto;
 }
 
+.images{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 10px;
+}
 #main-background{
 	height: 700px;
 	z-index: 1;
