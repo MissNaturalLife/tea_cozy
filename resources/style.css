@@ -2,9 +2,12 @@
 	font-family: Helvetica;
 	font-size: 22px;
 	color: seashell;
-	background-color: black;
 	opacity: 0.9;
 	text-align: center;
+}
+
+body{
+	background-color: black;
 }
 
 header{
@@ -36,6 +39,7 @@ nav span{
 	bottom: 350px;
 	z-index: 2;
 	opacity: 1;
+	background-color: black;
 }
 
 .mission_statement h2{
@@ -68,9 +72,26 @@ nav span{
 	margin: 0 auto;
 }
 
-.location img{
+.location {
+	background-image: url("./images/locations.jpg");
+	display: flex;
 	height: 500px;
 	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.location div{
+	background-color: black;
+	opacity: 1;
+	height: 300px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 100px;
+	margin: 40px;
+	justify-content: space-around;
 }
 
 .images{
@@ -79,6 +100,12 @@ nav span{
 	align-items: center;
 	margin: 10px;
 }
+
+#small_header{
+	font-size: 30px;
+	font-weight: bold;
+}
+
 #main-background{
 	height: 700px;
 	z-index: 1;
@@ -92,7 +119,6 @@ nav span{
 
 #header{
 	font-size: 34px;
-	position: relative;
-	bottom: 450px;
-	background-color: none;
+	font-weight: bold;
+	opacity: 1;
 }
