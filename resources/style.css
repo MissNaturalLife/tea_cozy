@@ -31,6 +31,9 @@ nav span{
 	padding: 20px 20px;
 }
 
+footer{
+	text-align: center;
+}
 .mission_statement{
 	display: flex;
 	flex-direction: column;
@@ -40,16 +43,12 @@ nav span{
 	z-index: 2;
 	opacity: 1;
 	background-color: black;
+	margin: 0 auto;
 }
 
 .mission_statement h2{
-	padding-left: 110px;
 	margin: 0;
 	font-size: 34px;
-}
-
-.mission_statement h4{
-	padding-left: 110px;
 }
 
 .menu{
@@ -74,25 +73,12 @@ nav span{
 
 .location {
 	background-image: url("./images/locations.jpg");
-	display: flex;
 	height: 500px;
 	width: 1200px;
 	margin: 0 auto;
 	text-align: center;
 }
 
-.location div{
-	background-color: black;
-	opacity: 1;
-	height: 300px;
-	width: 300px;
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	top: 100px;
-	margin: 40px;
-	justify-content: space-around;
-}
 
 .images{
 	display: flex;
@@ -121,4 +107,26 @@ nav span{
 	font-size: 34px;
 	font-weight: bold;
 	opacity: 1;
+}
+
+#copyright{
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.box{
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	opacity: 1;
+	height: 300px;
+	width: 300px;
+	display: flex;
+	margin: 40px;
+	justify-content: space-around;
+}
+
+#boxes{
+	display: flex;
 }
